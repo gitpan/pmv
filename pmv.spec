@@ -1,5 +1,5 @@
 %define modname pmv
-%define modversion 0.02
+%define modversion 0.03
 
 Name: %modname
 Version: %modversion

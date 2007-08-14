@@ -4,8 +4,8 @@ my $RCS_Id = '$Id: pmv.pl,v 1.6 2007/08/14 21:11:50 jv Exp $ ';
 # Author          : Johan Vromans
 # Created On      : Tue Sep 15 15:59:04 1992
 # Last Modified By: Johan Vromans
-# Last Modified On: Tue Aug 14 23:02:48 2007
-# Update Count    : 142
+# Last Modified On: Tue Aug 14 23:27:45 2007
+# Update Count    : 143
 # Status          : Unknown, Use with caution!
 
 ################ Common stuff ################
@@ -17,7 +17,7 @@ my $my_package = 'Sciurix';
 # Program name and version.
 my ($my_name, $my_version) = $RCS_Id =~ /: (.+).pl,v ([\d.]+)/;
 # Tack '*' if it is not checked in into RCS.
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 $my_version .= '*' if length('$Locker:  $ ') > 12;
 
 ################ Command line parameters ################
